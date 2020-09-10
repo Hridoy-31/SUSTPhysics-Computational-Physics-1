@@ -20,15 +20,15 @@ R = 6371000
 h=[]
 t=[]
 
-for i in range(50):
+for i in range(100):
 
-    H = ((G*M*T**2)/4*(math.pi)**2)**(1/3) - R
+    H = ((G*M*T**2)/(4*math.pi**2))**(1/3) - R
     h.append(H)
     t.append(T)
-    T = T + 100
+    T = T + 500
     
-plt.plot(h,t,'ro')
-plt.xlabel('x label with unit')
-plt.ylabel('y label with unit')
+plt.plot(t,h,'.')
+plt.xlabel('time label with seconds')
+plt.ylabel('height label with meters')
 
 plt.show()
