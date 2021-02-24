@@ -10,27 +10,41 @@ for the double pendulum system.
 
 The following modules are used:
 
-- `numpy`
-- `pygame`
+- [Pickle](https://docs.python.org/3/library/pickle.html) {Default module. NO NEED TO INSTALL}
+- [Matplotlib](https://matplotlib.org/stable/index.html)
+- [Pygame](https://www.pygame.org/news)
+- [Math](https://docs.python.org/3/library/math.html) {Default module. NO NEED TO INSTALL}
+- [Analysis](https://pypi.org/project/analysis/)
+- [NumPy](https://numpy.org/)
 
-You can install them with the following command:
+For installing **Matplotlib**, the commands are the following:
 
-    pip3 install pygame numpy
+    python -m pip install -U pip
+    python -m pip install -U matplotlib
+
+For installing **Pygame**, the command is the following:
+
+    python3 -m pip install -U pygame --user
+
+For installing **Analysis**, the command is the following:
+
+    pip install analysis
+
+For installing **NumPy**, the command is the following:
+
+    pip install numpy
+
 
 # Usage instructions
 
 Run `double-pendulum.py` to get the simulation and the simulation parameters which can
-be set.
+be hard coded manually. After quitting simulation, all the graphs will be available consequently. 
 
-# Notes on stability
-
-If your simulation becomes unstable, try doing one or more of the following:
-
-- reduce the time step
-- reduce the initial angular velocities
-- reduce the gravitational acceleration
 
 # Contributors & contact information
 
 - S.M. Raihanul Bashir / raihanulbashirhridoy@gmail.com
-- 
+- Ahmad Al - Imtiaz / ahmadal.imtiaz@gmail.com
+- Md Tahsin Ahammad / tashinahammad.03@gmail.com
+- Md Kawser Ahmed
+- Tanver Hossain Refat / tanveerrefat2223@gmail.com
