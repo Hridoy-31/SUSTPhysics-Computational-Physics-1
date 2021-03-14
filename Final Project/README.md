@@ -46,5 +46,5 @@ be hard coded manually. After quitting simulation, all the graphs will be availa
 - S.M. Raihanul Bashir / raihanulbashirhridoy@gmail.com
 - Ahmad Al - Imtiaz / ahmadal.imtiaz@gmail.com
 - Md Tahsin Ahammad / tashinahammad.03@gmail.com
-- Md Kawser Ahmed
+- Md Kawser Ahmed / kawserahmedseyam13@gmail.com
 - Tanver Hossain Refat / tanveerrefat2223@gmail.com
